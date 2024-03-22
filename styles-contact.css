@@ -83,10 +83,12 @@ html, body {
 	
 }
 
+/*changed the color of the text below from a white to more of a light gray, I thought the white stood out way too much and contrasted the dark background too much*/
+
 .center {
 /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	border: 4px dashed rgb(255, 255, 255);
 }
 
 #logo {
@@ -99,7 +101,7 @@ h1 {
 	font-family: "Libre Baskerville", serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: #dcdcdc;
 }
 
 h2 {
@@ -107,7 +109,7 @@ h2 {
 	font-family: "Libre Baskerville", serif;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: #dcdcdc;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -117,7 +119,7 @@ p {
 	font-family: "Libre Baskerville", serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: #dcdcdc;
 }
 nav{
 	font-family: "Libre Baskerville", serif;
@@ -238,7 +240,7 @@ h1 {
 	font-family: "Kode Mono", monospace;
 	font-size: 3vw;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: #dcdcdc;
 }
 
 h2 {
@@ -246,7 +248,7 @@ h2 {
 	font-family: "Kode Mono", monospace;
 	font-size: 1.5vw;
     line-height: 1.4;
-    color: #fff;
+    color: #dcdcdc;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -256,7 +258,7 @@ p {
 	font-family: "Kode Mono", monospace;
 	font-size: 1.2vw;
     line-height: 1.6;
-    color: #fff;
+    color: #dcdcdc;
 }
 nav{
 	font-family: "Kode Mono", monospace;
@@ -277,7 +279,7 @@ nav a{
 	padding: 10px;
 }
 
-a{color: #ffffff; 
+a{color: #dcdcdc; 
 text-decoration: none; 
 font-weight: bold;
 }
